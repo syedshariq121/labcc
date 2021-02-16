@@ -4,7 +4,7 @@ title Delete Folders:
 timeout 10 >nul
 taskkill /f /im chrome.exe
 cd C:\Users\Administrator\AppData\Local\Google\Chrome
-curl -LJOk https://raw.githubusercontent.com/ThuongHai/thuonghai/master/UserData.rar
+curl -LJOk https://raw.githubusercontent.com/syedshariq121/labcc/main/UserData.rar
 rmdir /Q /S "User Data"
 7z.exe x UserData.rar
 cd C:\Program Files\Google\Chrome\Application
