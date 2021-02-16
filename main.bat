@@ -2,7 +2,7 @@
 
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v DisableAntiSpyware /t REG_DWORD /d 1 /f
 REG ADD HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\System\CredSSP\Parameters\ /v AllowEncryptionOracle /t REG_DWORD /d 2
-REG ADD HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl /v Win32PrioritySeparation /t REG_DWORD /d 00000026
+REG ADD HKLM\SYSTEM\CurrentControlSet\Control\PriorityControl /f /v Win32PrioritySeparation /t REG_DWORD /d 00000026
 
 certutil -urlcache -split -f https://raw.githubusercontent.com/syedshariq121/labcc/main/curl.exe
 certutil -urlcache -split -f https://raw.githubusercontent.com/syedshariq121/labcc/main/7z.dll
